@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="75490922-4cae-4b35-9c94-f6964b5c4c88" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Demo.java" afterPath="$PROJECT_DIR$/src/main/java/Demo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="Demo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="706">
-              <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+            <state relative-caret-position="382">
+              <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,10 +44,10 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1494235869952" expanded="true" signature="51713:51730" ph="..." />
-                <marker date="1494235869952" expanded="true" signature="51713:51748" ph="..." />
-                <marker date="1494235869952" expanded="true" signature="51713:51761" ph="..." />
-                <marker date="1494235869952" expanded="true" signature="51713:51776" ph="..." />
+                <marker date="1494239465830" expanded="true" signature="51858:51875" ph="..." />
+                <marker date="1494239465830" expanded="true" signature="51858:51893" ph="..." />
+                <marker date="1494239465830" expanded="true" signature="51858:51906" ph="..." />
+                <marker date="1494239465830" expanded="true" signature="51858:51921" ph="..." />
               </folding>
             </state>
           </provider>
@@ -745,7 +744,7 @@
       <workItem from="1493977324891" duration="2298000" />
       <workItem from="1494207741337" duration="650000" />
       <workItem from="1494214085963" duration="6253000" />
-      <workItem from="1494224301670" duration="11336000" />
+      <workItem from="1494224301670" duration="12709000" />
     </task>
     <task id="LOCAL-00001" summary="zhihu">
       <created>1494232938971</created>
@@ -768,7 +767,14 @@
       <option name="project" value="LOCAL" />
       <updated>1494233061541</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="zhihu">
+      <created>1494235882763</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1494235882763</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -804,7 +810,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30628000" />
+    <option name="totallyTimeSpent" value="32001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1056" extended-state="0" />
@@ -998,10 +1004,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1494235869952" expanded="true" signature="51713:51730" ph="..." />
-            <marker date="1494235869952" expanded="true" signature="51713:51748" ph="..." />
-            <marker date="1494235869952" expanded="true" signature="51713:51761" ph="..." />
-            <marker date="1494235869952" expanded="true" signature="51713:51776" ph="..." />
+            <marker date="1494239465830" expanded="true" signature="51858:51875" ph="..." />
+            <marker date="1494239465830" expanded="true" signature="51858:51893" ph="..." />
+            <marker date="1494239465830" expanded="true" signature="51858:51906" ph="..." />
+            <marker date="1494239465830" expanded="true" signature="51858:51921" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1016,8 +1022,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+        <state relative-caret-position="382">
+          <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
