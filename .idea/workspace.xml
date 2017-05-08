@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="75490922-4cae-4b35-9c94-f6964b5c4c88" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Demo.java" afterPath="$PROJECT_DIR$/src/main/java/Demo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,8 +30,8 @@
       <file leaf-file-name="Demo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="52" column="43" lean-forward="true" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
+            <state relative-caret-position="706">
+              <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,10 +45,10 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1494233031686" expanded="true" signature="50227:50269" ph="..." />
-                <marker date="1494233031686" expanded="true" signature="50227:50287" ph="..." />
-                <marker date="1494233031686" expanded="true" signature="50227:50300" ph="..." />
-                <marker date="1494233031686" expanded="true" signature="50227:50315" ph="..." />
+                <marker date="1494235869952" expanded="true" signature="51713:51730" ph="..." />
+                <marker date="1494235869952" expanded="true" signature="51713:51748" ph="..." />
+                <marker date="1494235869952" expanded="true" signature="51713:51761" ph="..." />
+                <marker date="1494235869952" expanded="true" signature="51713:51776" ph="..." />
               </folding>
             </state>
           </provider>
@@ -79,6 +80,9 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -741,7 +745,7 @@
       <workItem from="1493977324891" duration="2298000" />
       <workItem from="1494207741337" duration="650000" />
       <workItem from="1494214085963" duration="6253000" />
-      <workItem from="1494224301670" duration="8721000" />
+      <workItem from="1494224301670" duration="11336000" />
     </task>
     <task id="LOCAL-00001" summary="zhihu">
       <created>1494232938971</created>
@@ -757,25 +761,17 @@
       <option name="project" value="LOCAL" />
       <updated>1494232985787</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="zhihu">
+      <created>1494233061541</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1494233061541</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Demo_addContact - 2017.05.08 at 15h 06m 31s.xml">
-      <configuration name="Demo.addContact" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Demo_addContact - 2017.05.08 at 15h 20m 02s.xml">
-      <configuration name="Demo.addContact" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Demo_addContact - 2017.05.08 at 15h 25m 14s.xml">
-      <configuration name="Demo.addContact" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Demo_addContact - 2017.05.08 at 15h 38m 01s.xml">
-      <configuration name="Demo.addContact" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Demo_addContact - 2017.05.08 at 15h 46m 22s.xml">
-      <configuration name="Demo.addContact" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Demo_addContact - 2017.05.08 at 15h 54m 04s.xml">
       <configuration name="Demo.addContact" configurationId="JUnit" />
     </history-entry>
@@ -791,9 +787,24 @@
     <history-entry file="Demo_addContact - 2017.05.08 at 16h 36m 52s.xml">
       <configuration name="Demo.addContact" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Demo_addContact - 2017.05.08 at 17h 01m 23s.xml">
+      <configuration name="Demo.addContact" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_addContact - 2017.05.08 at 17h 08m 15s.xml">
+      <configuration name="Demo.addContact" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_addContact - 2017.05.08 at 17h 17m 06s.xml">
+      <configuration name="Demo.addContact" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_addContact - 2017.05.08 at 17h 22m 27s.xml">
+      <configuration name="Demo.addContact" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_addContact - 2017.05.08 at 17h 29m 06s.xml">
+      <configuration name="Demo.addContact" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28013000" />
+    <option name="totallyTimeSpent" value="30628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1056" extended-state="0" />
@@ -808,8 +819,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.50213677" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.49786323" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.49786323" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -833,6 +844,24 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -969,10 +998,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1494233031686" expanded="true" signature="50227:50269" ph="..." />
-            <marker date="1494233031686" expanded="true" signature="50227:50287" ph="..." />
-            <marker date="1494233031686" expanded="true" signature="50227:50300" ph="..." />
-            <marker date="1494233031686" expanded="true" signature="50227:50315" ph="..." />
+            <marker date="1494235869952" expanded="true" signature="51713:51730" ph="..." />
+            <marker date="1494235869952" expanded="true" signature="51713:51748" ph="..." />
+            <marker date="1494235869952" expanded="true" signature="51713:51761" ph="..." />
+            <marker date="1494235869952" expanded="true" signature="51713:51776" ph="..." />
           </folding>
         </state>
       </provider>
@@ -987,8 +1016,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="52" column="43" lean-forward="true" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
+        <state relative-caret-position="706">
+          <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

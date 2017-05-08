@@ -1,12 +1,11 @@
-import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.android.AndroidKeyCode;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -14,7 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.net.URL;
 
 public class Demo {
-    private AppiumDriver driver;
+    private AndroidDriver driver;
 
     @Before
     public void setUp() throws Exception {
@@ -37,22 +36,26 @@ public class Demo {
     }
 
     @Test
-    public void addContact(){
+    public void addContact() throws InterruptedException {
         WebDriverWait wait =new WebDriverWait(driver,20);
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//android.widget.HorizontalScrollView/android.widget.LinearLayout/android.support.v7.app.a.c[5]"))).click();
         wait.until(ExpectedConditions.elementToBeClickable(By.id("com.zhihu.android:id/guest_header_button"))).click();
         wait.until(ExpectedConditions.elementToBeClickable(By.id("com.zhihu.android:id/go_to_btn"))).click();
         wait.until(ExpectedConditions.elementToBeClickable(By.id("com.zhihu.android:id/text_left_func"))).click();
-        WebElement name = wait.until(ExpectedConditions.elementToBeClickable(By.id("com.zhihu.android:id/edit_text")));
+        AndroidElement name = (AndroidElement) wait.until(ExpectedConditions.elementToBeClickable(By.id("com.zhihu.android:id/edit_text")));
         TouchAction ta = new TouchAction(driver);
         ta.tap(name, 400, 50).release().perform();
-        name.sendKeys("aaaa");
-        wait.until(ExpectedConditions.elementToBeClickable(By.id("com.zhihu.android:id/password"))).sendKeys("as8371912");
+        Thread.sleep(1000);
+        sendMobileNumber("12345678");
+        AndroidElement pwd = (AndroidElement) wait.until(ExpectedConditions.elementToBeClickable(By.id("com.zhihu.android:id/password")));
+        pwd.sendKeys("");
+        pwd.clear();
+        pwd.sendKeys("123456");
     }
     public void sendMobileNumber(String text){
         char [] chars = text.toCharArray();
         for (int i=0;i<chars.length;i++){
-            int c = Integer.valueOf(String.valueOf(chars));
+            int c = Integer.valueOf(String.valueOf(chars[i]));
             int number = 0;
             switch (c){
                 case  0:
@@ -89,6 +92,7 @@ public class Demo {
                     System.out.println("语法错误");
                     break;
             }
+            driver.pressKeyCode(number);
         }
     }
 }
