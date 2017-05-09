@@ -1,7 +1,6 @@
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
-import io.appium.java_client.android.AndroidKeyCode;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -14,12 +13,12 @@ import java.net.URL;
 
 public class Demo {
     private AndroidDriver driver;
-
+    private SendMobileNumber sd;
     @Before
     public void setUp() throws Exception {
         //启动appium
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("deviceName","N918St");
+        capabilities.setCapability("deviceName","vivo V3Max A");
         capabilities.setCapability("platformName","Android");
         capabilities.setCapability("platformVersion","4.4.2");
         capabilities.setCapability("appPackage","com.zhihu.android");
@@ -29,6 +28,7 @@ public class Demo {
         capabilities.setCapability("resetKeyboard","True");
         //resetKeyboard 是将键盘隐藏起来
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+        sd = new SendMobileNumber(driver);
     }
 
     @After
@@ -46,53 +46,11 @@ public class Demo {
         TouchAction ta = new TouchAction(driver);
         ta.tap(name, 400, 50).release().perform();
         Thread.sleep(1000);
-        sendMobileNumber("12345678");
+        sd.sendMobileNumber("12345678");
         AndroidElement pwd = (AndroidElement) wait.until(ExpectedConditions.elementToBeClickable(By.id("com.zhihu.android:id/password")));
         pwd.sendKeys("");
         pwd.clear();
         pwd.sendKeys("123456");
     }
-    public void sendMobileNumber(String text){
-        char [] chars = text.toCharArray();
-        for (int i=0;i<chars.length;i++){
-            int c = Integer.valueOf(String.valueOf(chars[i]));
-            int number = 0;
-            switch (c){
-                case  0:
-                    number = AndroidKeyCode.KEYCODE_0;
-                    break;
-                case  1:
-                    number = AndroidKeyCode.KEYCODE_1;
-                    break;
-                case  2:
-                    number = AndroidKeyCode.KEYCODE_2;
-                    break;
-                case  3:
-                    number = AndroidKeyCode.KEYCODE_3;
-                    break;
-                case  4:
-                    number = AndroidKeyCode.KEYCODE_4;
-                    break;
-                case  5:
-                    number = AndroidKeyCode.KEYCODE_5;
-                    break;
-                case  6:
-                    number = AndroidKeyCode.KEYCODE_6;
-                    break;
-                case  7:
-                    number = AndroidKeyCode.KEYCODE_7;
-                    break;
-                case  8:
-                    number = AndroidKeyCode.KEYCODE_8;
-                    break;
-                case  9:
-                    number = AndroidKeyCode.KEYCODE_9;
-                    break;
-                default:
-                    System.out.println("语法错误");
-                    break;
-            }
-            driver.pressKeyCode(number);
-        }
-    }
+
 }
