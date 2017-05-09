@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements>
+    <element name="知乎登录">
+        <locator type="xpath">//android.widget.HorizontalScrollView/android.widget.LinearLayout/android.support.v7.app.a.c[5]</locator>
+    </element>
+    <element name="知乎账号框">
+        <locator type="id">com.zhihu.android:id/edit_text</locator>
+    </element>
+    <element name="知乎密码框">
+        <locator type="id">com.zhihu.android:id/password</locator>
+    </element>
+</elements>
