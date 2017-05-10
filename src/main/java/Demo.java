@@ -18,9 +18,9 @@ public class Demo {
     public void setUp() throws Exception {
         //启动appium
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("deviceName","vivo V3Max A");
+        capabilities.setCapability("deviceName","MI 4W");
         capabilities.setCapability("platformName","Android");
-        capabilities.setCapability("platformVersion","4.4.2");
+        capabilities.setCapability("platformVersion","4.4.4");
         capabilities.setCapability("appPackage","com.zhihu.android");
         capabilities.setCapability("appActivity","com.zhihu.android.app.ui.activity.MainActivity");
         capabilities.setCapability("unicodeKeyboard","True");
